@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nutritional Value Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="title">
+                <h1>Valor Nutricional</h1>
+                <button class="clear-button">Clear all</button>
+            </div>
+
+            <div class="inputs">
+                <h2>Prot Líquida (g)</h2>
+                <div class="input-with-icon">
+                    <span class="input-addon">g</span>
+                    <input class="big-input" type="text" name="Prot Liquida" id="ProtLiquida">
+                </div>
+
+                <div class="secondary-inputs">
+                    <div class="input-group">
+                        <div class="input-pair">
+                            <h2>Proteína (g)</h2>
+                            <div class="input-with-icon">
+                                <span class="input-addon">g</span>
+                                <input class="small-input" type="text" name="Proteina" id="Proteina">
+                            </div>
+                        </div>
+                        <div class="input-pair">
+                            <h2>CHO (g)</h2>
+                            <div class="input-with-icon">
+                                <span class="input-addon">g</span>
+                                <input class="small-input" type="text" name="CHO" id="CHO">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Lipídios (g)</h2>
+                <div class="input-with-icon">
+                    <span class="input-addon">g</span>
+                    <input class="big-input" type="text" name="Lipidios" id="Lipidios">
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button class="calculate-button">
+                    <img src="/assets/icon-calculator.svg" alt="Calculator icon">
+                    <span>CALCULAR</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="results">
+            <img src="assets/illustration-empty.svg" alt="Empty results">
+            <h1>Resultados serão mostrados aqui</h1>
+            <p>Complete o formulário e clique em "CALCULAR" para ver o valor nutricional.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
