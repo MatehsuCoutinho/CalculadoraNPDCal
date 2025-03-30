@@ -6,8 +6,8 @@ Calcula valores nutricionais usando a fórmula:
 ((PROT LIQUIDA * 4) / (PROTEINA * 4 + CHO * 4 + LIPIDIOS * 9)) * 100
 
 ## Como usar?
--Preencha os valores nos campos
--Clique em "Calcular"
+-Preencha os valores nos campos <br>
+-Clique em "Calcular" <br>
 -Veja o resultado na seção à direita
 
 ## Tecnologias
